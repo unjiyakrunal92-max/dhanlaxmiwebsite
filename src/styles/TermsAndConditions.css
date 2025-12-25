@@ -1,0 +1,240 @@
+/* ========== TERMS & CONDITIONS PAGE ========== */
+.terms-page {
+  background: var(--bg-dark);
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+
+/* ========== HEADER ========== */
+.terms-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.terms-icon {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.terms-header h1 {
+  font-size: 2.5rem;
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.terms-header > p {
+  color: var(--text-gray);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.last-updated {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--bg-dark-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  color: var(--text-gray);
+}
+
+/* ========== CONTENT ========== */
+.terms-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ========== SECTIONS ========== */
+.terms-section {
+  background: var(--bg-dark-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.terms-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.section-header svg {
+  color: var(--primary-color);
+}
+
+.section-header h2 {
+  font-size: 1.5rem;
+  color: var(--text-light);
+  font-weight: 600;
+  margin: 0;
+}
+
+/* ========== TERMS LIST ========== */
+.terms-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ========== TERM ITEMS ========== */
+.term-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--bg-dark);
+  border-radius: 0.75rem;
+  border-left: 4px solid;
+  transition: all 0.3s ease;
+}
+
+.term-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.term-item svg {
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.term-item h3 {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.term-item p {
+  color: var(--text-gray);
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* ========== TERM ITEM VARIANTS ========== */
+.term-item.warning {
+  border-left-color: #f59e0b;
+  background: linear-gradient(to right, rgba(245, 158, 11, 0.05), var(--bg-dark));
+}
+
+.term-item.warning svg {
+  color: #f59e0b;
+}
+
+.term-item.warning h3 {
+  color: #fbbf24;
+}
+
+.term-item.success {
+  border-left-color: #10b981;
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.05), var(--bg-dark));
+}
+
+.term-item.success svg {
+  color: #10b981;
+}
+
+.term-item.success h3 {
+  color: #34d399;
+}
+
+.term-item.info {
+  border-left-color: #3b82f6;
+  background: linear-gradient(to right, rgba(59, 130, 246, 0.05), var(--bg-dark));
+}
+
+.term-item.info svg {
+  color: #3b82f6;
+}
+
+.term-item.info h3 {
+  color: #60a5fa;
+}
+
+/* ========== FOOTER ========== */
+.terms-footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  background: var(--bg-dark-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+}
+
+.terms-footer p {
+  color: var(--text-gray);
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+.store-name {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .terms-page {
+    padding: 2rem 0;
+  }
+
+  .terms-header h1 {
+    font-size: 2rem;
+  }
+
+  .terms-header > p {
+    font-size: 1rem;
+  }
+
+  .terms-section {
+    padding: 1.5rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .term-item {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .term-item h3 {
+    font-size: 1rem;
+  }
+
+  .term-item p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .term-item {
+    padding: 0.75rem;
+  }
+}

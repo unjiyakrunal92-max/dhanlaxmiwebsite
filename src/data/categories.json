@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fan",
+    "name": "Fan",
+    "icon": "fan",
+    "color": "from-blue-500 to-purple-500",
+    "bgColor": "bg-blue-500/10"
+  },
+  {
+    "id": "televisions",
+    "name": "Televisions",
+    "icon": "tv",
+    "color": "from-green-500 to-emerald-500",
+    "bgColor": "bg-green-500/10"
+  },
+  {
+    "id": "geyser",
+    "name": "Geyser",
+    "icon": "heater",
+    "color": "from-orange-500 to-red-500",
+    "bgColor": "bg-orange-500/10"
+  },
+  {
+    "id": "ro",
+    "name": "R.O",
+    "icon": "glassWater",
+    "color": "from-pink-500 to-rose-500",
+    "bgColor": "bg-pink-500/10"
+  },
+  {
+    "id": "appliances",
+    "name": "Appliances",
+    "icon": "home",
+    "color": "from-cyan-500 to-teal-500",
+    "bgColor": "bg-cyan-500/10"
+  },
+  {
+    "id": "cable",
+    "name": "Cable/Wires",
+    "icon": "cable",
+    "color": "from-yellow-500 to-amber-500",
+    "bgColor": "bg-yellow-500/10"
+  }
+]

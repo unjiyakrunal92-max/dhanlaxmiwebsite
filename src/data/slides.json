@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Best Water Purifiers",
+    "subtitle": "Latest Water Purifiers Collection",
+    "price": "Starting at ₹2,999",
+    "image": "https://i.ibb.co/5xntgm2B/311502-0-z-CBa-M75o-N.jpg",
+    "bgGradient": "linear-gradient(135deg, #0F0F0F 0%, #0F0F0F 100%)",
+    "buttonText": "Shop Now"
+  },
+  {
+    "id": 2,
+    "title": "Smart Televisions",
+    "subtitle": "4K & 8K Ultra HD Experience",
+    "price": "Starting at ₹18,999",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800",
+    "bgGradient": "linear-gradient(90deg, #000000 0%, #1C1E47 100%)",
+    "buttonText": "Explore TVs"
+  },
+  {
+    "id": 3,
+    "title": "Ceiling Fan",
+    "subtitle": "High Performance for Professionals",
+    "price": "Starting at ₹1,999",
+    "image": "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Small%20Appliances/Fans/Images/304600_0_mrczoh.png?tr=w-640",
+    "bgGradient": "linear-gradient(135deg, #0F0F0F 0%, #0F0F0F 100%)",
+    "buttonText": "View Collection"
+  }
+]
