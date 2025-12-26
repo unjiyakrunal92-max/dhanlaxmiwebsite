@@ -144,7 +144,11 @@
       "warranty": "2 Year"
       
     },
+<<<<<<< HEAD
               {
+=======
+                  {
+>>>>>>> cc4fc60 (vercel-fix)
       "id": "fan6",
       "name": "V-Guard VG-Husher BLDC most silent ceiling fan with 5 years Brand Warranty",
       "brand": "V-Guard",
@@ -307,7 +311,11 @@
       "description": "copper zinc alkaline water purifier for home with Crystal clear 9L water storage tank with ultra violate protection.",
       "description2": "Push Fit component for Leak Proof Performance, with Fully automatic shut off function which automatically switched off the Machine when its water tanks get full",
       "price": 6500,
+<<<<<<< HEAD
       "oldPrice": 8999,
+=======
+      "oldPrice": 9999,
+>>>>>>> cc4fc60 (vercel-fix)
       "rating": 3.5,
       "reviews": 88,
       "image": "https://m.media-amazon.com/images/I/61SmFOsyR2L._SX522_.jpg",
