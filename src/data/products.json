@@ -144,11 +144,7 @@
       "warranty": "2 Year"
       
     },
-<<<<<<< HEAD
-              {
-=======
-                  {
->>>>>>> cc4fc60 (vercel-fix)
+    {
       "id": "fan6",
       "name": "V-Guard VG-Husher BLDC most silent ceiling fan with 5 years Brand Warranty",
       "brand": "V-Guard",
@@ -311,11 +307,7 @@
       "description": "copper zinc alkaline water purifier for home with Crystal clear 9L water storage tank with ultra violate protection.",
       "description2": "Push Fit component for Leak Proof Performance, with Fully automatic shut off function which automatically switched off the Machine when its water tanks get full",
       "price": 6500,
-<<<<<<< HEAD
-      "oldPrice": 8999,
-=======
       "oldPrice": 9999,
->>>>>>> cc4fc60 (vercel-fix)
       "rating": 3.5,
       "reviews": 88,
       "image": "https://m.media-amazon.com/images/I/61SmFOsyR2L._SX522_.jpg",
@@ -402,6 +394,19 @@
   
   "cameras": [
     {
+      "id": "cam1",
+      "name": "Canon EOS R6 Mark II",
+      "brand": "Canon",
+      "category": "cameras",
+      "description": "Professional mirrorless camera for photography and videography.",
+      "description2": "Delivers stunning image quality with advanced stabilization.",
+      "price": 189990,
+      "rating": 4.7,
+      "reviews": 56,
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400",
+      "badge": "NEW",
+      "inStock": true,
+      "specs": ["24.2MP Full-Frame", "4K Video", "In-Body Stabilization"]
     }
   ]
 }
