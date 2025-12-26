@@ -143,6 +143,28 @@
       "specs": ["Silent Operation High-Speed Fan", "Higher Air Thrust", "50 Watt Ceiling Fan For Home"],
       "warranty": "2 Year"
       
+    },
+              {
+      "id": "fan6",
+      "name": "V-Guard VG-Husher BLDC most silent ceiling fan with 5 years Brand Warranty",
+      "brand": "V-Guard",
+      "category": "fan",
+        "description": "34 watts low energy consumption",
+      "description2": "Remote controlled.",
+      "price": 5700,
+      "oldPrice": 8400,
+      "rating": 4.5,
+      "reviews": 632  ,
+      "colors" : ["BLUE", "WHITE","BROWN","BLACK"],
+      "image2": "https://m.media-amazon.com/images/I/41tqqs6VZWL._SL1400_.jpg",
+      "image": "https://m.media-amazon.com/images/I/51Y0ZiB+fPL._SL1080_.jpg",
+      "image3": "https://m.media-amazon.com/images/I/410D7j36xmL._SL1080_.jpg",
+      "image4":"https://m.media-amazon.com/images/I/713LJYtP-zL._SL1500_.jpg",
+      "inStock": true,
+      "trending": true,
+      "specs": ["Remote controlled", "Higher Air Thrust", "34 watts low energy consumption"],
+      "warranty": "5 Year"
+      
     }
   ],
 
@@ -261,7 +283,7 @@
       "category": "ro",
       "description": "Large 9L fully crystal-clear detachable storage smart disinfection.",
       "description2": "Six stage filtration, High quality filters, and Active Copper is present with Carbon & Flexible InstallationThe purifier can be easily wall mounted or kept on the countertop.",
-      "price": 6500,
+      "price": 7500,
       "oldPrice": 9999,
       "rating": 4.7,
       "reviews": 378,
@@ -284,8 +306,8 @@
       "category": "ro",
       "description": "copper zinc alkaline water purifier for home with Crystal clear 9L water storage tank with ultra violate protection.",
       "description2": "Push Fit component for Leak Proof Performance, with Fully automatic shut off function which automatically switched off the Machine when its water tanks get full",
-      "price": 7500,
-      "oldPrice": 9999,
+      "price": 6500,
+      "oldPrice": 8999,
       "rating": 3.5,
       "reviews": 88,
       "image": "https://m.media-amazon.com/images/I/61SmFOsyR2L._SX522_.jpg",
@@ -372,19 +394,6 @@
   
   "cameras": [
     {
-      "id": "cam1",
-      "name": "Canon EOS R6 Mark II",
-      "brand": "Canon",
-      "category": "cameras",
-      "description": "Professional mirrorless camera for photography and videography.",
-      "description2": "Delivers stunning image quality with advanced stabilization.",
-      "price": 189990,
-      "rating": 4.7,
-      "reviews": 56,
-      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400",
-      "badge": "NEW",
-      "inStock": true,
-      "specs": ["24.2MP Full-Frame", "4K Video", "In-Body Stabilization"]
     }
   ]
 }
