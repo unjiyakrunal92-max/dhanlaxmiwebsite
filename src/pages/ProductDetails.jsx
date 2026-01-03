@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Star, ShoppingCart, Heart, Share2, Truck, Shield, CreditCard } from 'lucide-react';
 import '../styles/ProductDetails.css';
-import BrandsSlider from '../components/BrandsSlider';
 import productsData from '../data/products.json';
 import { formatPrice, sendToWhatsApp, getDiscount } from '../utils/helpers';
 
@@ -166,19 +165,34 @@ const ProductDetails = ({ onAddToWishlist }) => {
                   />
                 </div>
               )}
-
-              {/* Action Buttons */}
-              <div className="image-actions">
-                <button className="action-btn" onClick={handleAddToWishlist}>
-                  <Heart size={20} />
-                  Add to Wishlist
-                </button>
-                <button className="action-btn">
-                  <Share2 size={20} />
-                  Share
-                </button>
-              </div>
             </div>
+          </div>
+
+          {/* Thumbnails on mobile - below main image, above buttons */}
+          {productImages.length > 1 && (
+            <div className="thumbnail-images-mobile">
+              {productImages.map((img, index) => (
+                <div
+                  key={index}
+                  className={`thumbnail-vertical ${selectedImage === index ? 'active' : ''}`}
+                  onClick={() => setSelectedImage(index)}
+                >
+                  <img src={img} alt={`${product.name} ${index + 1}`} />
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Action Buttons - now after thumbnails on mobile */}
+          <div className="image-actions-mobile">
+            <button className="action-btn" onClick={handleAddToWishlist}>
+              <Heart size={20} />
+              Add to Wishlist
+            </button>
+            <button className="action-btn">
+              <Share2 size={20} />
+              Share
+            </button>
           </div>
 
           {/* Right - Product Info */}
@@ -290,9 +304,6 @@ const ProductDetails = ({ onAddToWishlist }) => {
               <ShoppingCart size={20} />
               Buy Now via WhatsApp
             </button>
-            <p className="buy-warning-text">
-  ⚠️ Please do not send message multiple times
-</p>
 
             {/* Features */}
             <div className="product-features">
@@ -374,8 +385,6 @@ const ProductDetails = ({ onAddToWishlist }) => {
             </div>
           </div>
         </div>
-        <BrandsSlider/>
-
       </div>
     </div>
   );

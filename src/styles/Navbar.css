@@ -247,7 +247,6 @@
   .desktop-search { display: none; }
   .mobile-search-container { display: block; } /* Show search on mobile */
   
-  .logo-text { display: none; } /* Shrink logo for space */
   .user-icon-desktop { display: none; } /* Move user to mobile menu */
   
   .top-bar-right { display: none; } /* Hide delivery text on tiny screens */

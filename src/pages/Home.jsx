@@ -118,7 +118,7 @@ const Home = ({ onAddToWishlist }) => {
               </Link>
             </div>
             <div className="products-grid">
-              {trendingProducts.slice(0, 8).map((product) => (
+              {trendingProducts.slice(0, 4).map((product) => (
                 <ProductCard
                   key={product.id}
                   product={product}

@@ -394,19 +394,7 @@
   
   "cameras": [
     {
-      "id": "cam1",
-      "name": "Canon EOS R6 Mark II",
-      "brand": "Canon",
-      "category": "cameras",
-      "description": "Professional mirrorless camera for photography and videography.",
-      "description2": "Delivers stunning image quality with advanced stabilization.",
-      "price": 189990,
-      "rating": 4.7,
-      "reviews": 56,
-      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400",
-      "badge": "NEW",
-      "inStock": true,
-      "specs": ["24.2MP Full-Frame", "4K Video", "In-Body Stabilization"]
+      
     }
   ]
 }

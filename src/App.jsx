@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/App.css';
-
+import { Analytics } from '@vercel/analytics/react';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -179,6 +179,7 @@ function App() {
         {/* Mobile Bottom Navigation */}
         <MobileNav cartCount={cartItems.length} />
       </div>
+       <Analytics/>
     </Router>
   );
 }
